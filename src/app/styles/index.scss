@@ -1,0 +1,18 @@
+@use './reset'as *;
+@import 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap';
+
+body {
+    font-family: Lato, sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizespeed;
+    background: #fff;
+}
+
+.app {
+    max-width: 728px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 21px 20px;
+}

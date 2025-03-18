@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 22px;
+    margin: 0px -20px 11px;
+    margin-bottom: 11px;
+    background: #fff;
+    color: #000;
+    border-bottom: 1px solid #EDEDED;
+
+    .title {
+        flex-grow: 1;
+        text-align: center;
+        margin: 0;
+        color: #000;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .menuButton {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 20px;
+
+        &:hover {
+            color: #1890ff;
+        }
+    }
+}
+
+.closeIcon {
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 105px;
+}
+
+.menuItem {
+    font-weight: 700;
+    font-size: 22px;
+}
